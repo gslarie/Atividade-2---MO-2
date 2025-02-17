@@ -10,6 +10,7 @@ public static void main(String[] args) {
 
         System.out.println("Digite a idade: ");
         int idade = scanner.nextInt();
+        scanner.nextLine();
 
         System.out.println("Digite o telefone: ");
         String phone = scanner.nextLine();
